@@ -1,4 +1,4 @@
-The HTTP Protocol 
+##The HTTP Protocol 
 
 Giao thức HTTP (Hypertext Transfer Protocol) là giao thức truyền thông cốt lõi được sử dụng để truy cập World Wide Web và được sử dụng bởi tất cả các ứng dụng web hiện nay. Đây là một giao thức đơn giản ban đầu được phát triển để truy xuất tài nguyên văn bản tĩnh. Sau đó, nó đã được mở rộng và tận dụng theo nhiều cách khác nhau để hỗ trợ ứng dụng phân tán phức tạp mà hiện nay đã trở nên phổ biến.
 
@@ -6,14 +6,14 @@ HTTP sử dụng một mô hình dựa trên tin nhắn, trong đó một máy k
 
 HTTP Requests
 Tất cả các thông điệp HTTP (HTTP requests và HTTP responses) đều bao gồm một hoặc nhiều tiêu đề, mỗi tiêu đề trên một dòng riêng biệt, theo sau là một dòng trống bắt buộc, và theo sau là một phần thân thông điệp tùy chọn. Một HTTP request điển hình có dạng như sau: 
-GET /auth/488/YourDetails.ashx?uid=129 HTTP/1.1 
+'GET /auth/488/YourDetails.ashx?uid=129 HTTP/1.1 
 Accept: application/x-ms-application, image/jpeg, application/xaml+xml, image/gif, image/pjpeg, application/x-ms-xbap, application/x-shockwaveflash, */*
- Referer: https://mdsec.net/auth/488/Home.ashx
- Accept-Language: en-GB 
+Referer: https://mdsec.net/auth/488/Home.ashx
+Accept-Language: en-GB 
 User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; InfoPath.3; .NET4.0E; FDM; .NET CLR 1.1.4322) 
 Accept-Encoding: gzip, deflate Host: mdsec.net
 Connection: Keep-Alive 
-Cookie: SessionId=5B70C71F3FD4968935CDB6682E545476
+Cookie: SessionId=5B70C71F3FD4968935CDB6682E545476'
 
 Dòng đầu tiên của mỗi yêu cầu HTTP bao gồm ba phần, được ngăn cách bởi khoảng trắng:
 
