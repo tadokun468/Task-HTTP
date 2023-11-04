@@ -190,7 +190,7 @@ Mỗi một trong những thuộc tính cookie này có thể ảnh hưởng đ�
 
 5xx: Lỗi phía server – Máy chủ không thể hoàn thành yêu cầu được cho là hợp lệ. Khi 5xx xảy ra, bạn chỉ có thể đợi để bên hệ thống máy chủ xử lý xong.
 
-Có rất nhiều Status Code , nhiều mã chỉ được sử dụng trong hoàn cảnh đặc biệt. Dưới đây là các status code có nhiều khả năng gặp phải nhất gặp phải khi tấn công một ứng dụng web:
+Có rất nhiều Status Code , nhiều mã chỉ được sử dụng trong hoàn cảnh đặc biệt. Dưới đây là các status code có nhiều khả năng gặp phải nhất khi tấn công một ứng dụng web:
 
 1. 100 Continue - Phản hồi tạm thời này cho biết rằng mọi thứ tới hiện tại vẫn ổn và phía client nên tiếp tục yêu cầu hay bỏ qua phản hồi nếu yêu cầu đã hoàn tất.
 
