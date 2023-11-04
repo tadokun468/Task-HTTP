@@ -33,9 +33,9 @@ HTTP Response là thông báo phản hồi mà server gửi về cho client sau 
 Cấu trúc của một HTTP response:
 
 - Một Status-line = Phiên bản HTTP + Mã trạng thái + Trạng thái
-- Có thể có hoặc không có các trường header
-- Một dòng trống để đánh dấu sự kết thúc của các trường header
-- Tùy chọn một thông điệp
+- Có thể có hoặc không có các trường Header
+- Một dòng trống để đánh dấu sự kết thúc của các trường Header
+- Tùy chọn một thông điệp (Message Body)
 
 Để hiểu rõ hơn về một HTTP response :
 
