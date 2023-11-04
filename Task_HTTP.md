@@ -2,6 +2,8 @@
 
 Giao thức HTTP (Hypertext Transfer Protocol) là giao thức truyền thông cốt lõi được sử dụng để truy cập World Wide Web và được sử dụng bởi tất cả các ứng dụng web hiện nay. 
 
+![Alt text](image-3.png)
+
 HTTP sử dụng một mô hình dựa trên tin nhắn, trong đó một máy khách (client) gửi một thông điệp yêu cầu và máy chủ (server) trả về một thông điệp phản hồi. 
 
 ## `HTTP Requests`
