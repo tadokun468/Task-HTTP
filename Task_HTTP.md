@@ -32,7 +32,7 @@ HTTP Response là thông báo phản hồi mà server gửi về cho client sau 
 
 Cấu trúc của một HTTP response:
 
-- Một Status-line = Phiên bản HTTP + Mã trạng thái + Trạng thái
+- Một Status-line = HTTP version + Status Code + Trạng thái
 - Có thể có hoặc không có các trường Header
 - Một dòng trống để đánh dấu sự kết thúc của các trường Header
 - Tùy chọn một thông điệp (Message Body)
@@ -40,7 +40,7 @@ Cấu trúc của một HTTP response:
 Để hiểu rõ hơn về một HTTP response :
 
 - HTTP version: phiên bản giao thức HTTP mà server đang sử dụng.
-- Mã trạng thái (status code): mô tả trạng thái của yêu cầu.
+- Status Code : mô tả trạng thái của yêu cầu.
 - Reason phrase: mô tả về Status-Code
 - Header: chứa thông tin về response như Content-Type, Content-Length, Date, Server, vv.
 - Body: nội dung của response, có thể là dữ liệu mà server gửi về cho client.
