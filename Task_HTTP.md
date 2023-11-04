@@ -142,7 +142,7 @@ Note : Bạn có thể gặp thuật ngữ URI (uniform resource identifier) đ�
 
 4. Expires: thông báo cho trình duyệt về thời gian mà nội dung message body còn hiệu lực. Trình duyệt có thể sử dụng bản sao trong bộ nhớ đệm (cache) của nó thuộc tài nguyên này cho đến thời điểm còn hiệu lực.
 
-5. Location: được sử dụng trong phản hồi chuyển hướng(redirection responses) (có status code bắt đầu bằng 3xx) để chỉ định đích của chuyển hướng.
+5. Location: được sử dụng trong phản hồi chuyển hướng(redirection responses) có status code bắt đầu bằng 3xx để chỉ định đích của chuyển hướng.
 
 6. Pragma: chuyển các chỉ thị về bộ nhớ đệm đến trình duyệt (ví dụ: no-cache).
 
