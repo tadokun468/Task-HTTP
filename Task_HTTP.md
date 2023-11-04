@@ -122,7 +122,7 @@ Note : Bạn có thể gặp thuật ngữ URI (uniform resource identifier) đ�
 
 5. Host: chỉ định tên máy chủ (hostname) xuất hiện trong URL đầy đủ đang được yêu cầu.
 
-6. If-Modified-Since: chỉ định thời điểm mà trình duyệt cuối cùng nhận được tài nguyên được yêu cầu. Nếu tài nguyên không thay đổi kể từ thời điểm đó, server có thể chỉ đạo client sử dụng bản sao được lưu trong bộ nhớ đệm của nó, bằng cách sử dụng một respone với status code 304.
+6. If-Modified-Since: chỉ định thời điểm cuối cùng mà trình duyệt nhận tài nguyên được yêu cầu. Nếu tài nguyên không thay đổi kể từ thời điểm đó, server có thể chỉ đạo client sử dụng bản sao được lưu trong bộ nhớ đệm của nó, bằng cách sử dụng một respone với status code 304.
 
 7. If-None-Match: chỉ định một thẻ thực thể (entity tag), đó là một định danh biểu thị nội dung của message body. Trình duyệt gửi entity tag mà server cấp với tài nguyên được yêu cầu. Server có thể sử dụng entity tag để xác định xem trình duyệt có thể sử dụng bản sao trong bộ nhớ đệm của nó của tài nguyên hay không.
 
