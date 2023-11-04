@@ -126,7 +126,7 @@ Note : Bạn có thể gặp thuật ngữ URI (uniform resource identifier) đ�
 
 7. If-None-Match: chỉ định một thẻ thực thể (entity tag), đó là một định danh biểu thị nội dung của message body. Trình duyệt gửi entity tag mà server cấp với tài nguyên được yêu cầu. Server có thể sử dụng entity tag để xác định xem trình duyệt có thể sử dụng bản sao tài nguyên trong bộ nhớ đệm của trình duyệt hay không.
 
-8. Origin: được sử dụng trong các yêu cầu Ajax giao qua miền (cross-domain) để chỉ ra tên miền nguồn mà yêu cầu xuất phát.
+8. Origin: được sử dụng trong các cross-domain Ajax requests để chỉ ra tên miền nguồn mà yêu cầu xuất phát.
 
 9. Referer: chỉ định URL mà yêu cầu hiện tại xuất phát.
 
@@ -134,7 +134,7 @@ Note : Bạn có thể gặp thuật ngữ URI (uniform resource identifier) đ�
 
 **Response Headers**
 
-1. Access-Control-Allow-Origin: chỉ định xem tài nguyên có thể được truy xuất thông qua các yêu cầu Ajax giao qua miền (cross-domain) hay không .
+1. Access-Control-Allow-Origin: chỉ định xem tài nguyên có thể được truy xuất thông qua các cross-domain Ajax requests hay không .
 
 2. Cache-Control: chuyển các chỉ thị về bộ nhớ đệm đến trình duyệt (ví dụ: no-cache).
 
