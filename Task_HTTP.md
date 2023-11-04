@@ -6,7 +6,8 @@ HTTP sử dụng một mô hình dựa trên tin nhắn, trong đó một máy k
 
 ## `HTTP Requests`
 Đây chính là tập hợp thông tin được gửi từ các máy khách (client) đến máy chủ (server). Nó là những yêu cầu cần máy chủ tìm kiếm, xử lý sau đó phản hồi kết quả lại client. 
-Bất cứ HTTP Request nào cũng có cấu trúc cụ thể gồm 3 thành phần chính. Đó là Request line, Request header và Body Request. 
+Bất cứ HTTP Request nào cũng có cấu trúc cụ thể gồm 3 thành phần chính. Đó là Request line, Request header và Body Request.
+
 ![Alt text](image.png)
 
  1. **Request Line** : Là dòng xuất hiện đầu tiên trong các yêu cầu HTTP. Trong thành phần này lại bao gồm 3 yếu tố.
