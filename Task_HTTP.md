@@ -181,12 +181,17 @@ Mỗi một trong những thuộc tính cookie này có thể ảnh hưởng đ�
 
 ## `Status Code`
 1xx: Yêu cầu đã được chấp nhận và quá trình xử lý yêu cầu đang được tiếp tục.
+
 2xx: Yêu cầu đã được máy chủ tiếp nhận, hiểu và xử lý thành công.
+
 3xx: Chuyển hướng, phía client cần thực hiện hành động bổ sung để hoàn tất yêu cầu.
+
 4xx: Lỗi phía client – Yêu cầu không thể hoàn tất hoặc yêu cầu chứa cú pháp không chính xác. 4xx sẽ hiện ra khi có lỗi từ phía client do không đưa ra yêu cầu hợp lệ.
+
 5xx: Lỗi phía server – Máy chủ không thể hoàn thành yêu cầu được cho là hợp lệ. Khi 5xx xảy ra, bạn chỉ có thể đợi để bên hệ thống máy chủ xử lý xong.
 
-Có rất nhiều Status Code , nhiều mã chỉ được sử dụng trong hoàn cảnh đặc biệt. Dưới đây là các mã trạng thái mà bạn có nhiều khả năng gặp phải nhất gặp phải khi tấn công một ứng dụng web:
+Có rất nhiều Status Code , nhiều mã chỉ được sử dụng trong hoàn cảnh đặc biệt. Dưới đây là các status code có nhiều khả năng gặp phải nhất gặp phải khi tấn công một ứng dụng web:
+
 1. 100 Continue - Phản hồi tạm thời này cho biết rằng mọi thứ tới hiện tại vẫn ổn và phía client nên tiếp tục yêu cầu hay bỏ qua phản hồi nếu yêu cầu đã hoàn tất.
 
 2. 200 OK - Chỉ ra rằng yêu cầu đã thành công 
